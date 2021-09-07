@@ -8,7 +8,7 @@
 
 def diff(set_1: set, set_2: set) -> set:
     # TODO вставить код сюда
-    result = None
+    result = set(set_1).difference(set(set_2))
     return result
 
 
